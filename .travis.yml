@@ -21,7 +21,7 @@ before_script:
 
 script:
   - ng lint
-  - ng test --watch=false --progress=false
+  - ng test --watch=false --progress=false --browsers=ChromeHeadless
   - ng e2e
   - ng build --prod
 
